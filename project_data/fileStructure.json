@@ -1,0 +1,38 @@
+{
+    "Education": {
+        "2017": {
+            "Project1": [
+                "description.json"
+            ],
+            "Project2": [
+                "description.json"
+            ]
+        },
+        "2018": {
+            "Project1": [
+                "description.json"
+            ],
+            "Project2": [
+                "description.json"
+            ]
+        }
+    },
+    "Personal": {
+        "2017": {
+            "Project1": [
+                "description.json"
+            ],
+            "Project2": [
+                "description.json"
+            ]
+        },
+        "2018": {
+            "Project1": [
+                "description.json"
+            ],
+            "Project2": [
+                "description.json"
+            ]
+        }
+    }
+}
