@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/css/main.5f361e03.chunk.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/main.8e59ae15.chunk.js",
-    "main.js.map": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/main.8e59ae15.chunk.js.map",
-    "runtime-main.js": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/runtime-main.2e52a46c.js",
-    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/runtime-main.2e52a46c.js.map",
-    "static/js/2.facdff10.chunk.js": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/2.facdff10.chunk.js",
-    "static/js/2.facdff10.chunk.js.map": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/2.facdff10.chunk.js.map",
-    "index.html": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/index.html",
-    "precache-manifest.f63a8d29c609a910f29cc846a70bca65.js": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/precache-manifest.f63a8d29c609a910f29cc846a70bca65.js",
-    "service-worker.js": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.facdff10.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/amng/portfolio@master/static/js/2.facdff10.chunk.js.LICENSE.txt"
+    "main.css": "https://amng.github.io/portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "https://amng.github.io/portfolio/static/js/main.6718a4b6.chunk.js",
+    "main.js.map": "https://amng.github.io/portfolio/static/js/main.6718a4b6.chunk.js.map",
+    "runtime-main.js": "https://amng.github.io/portfolio/static/js/runtime-main.1e926a6b.js",
+    "runtime-main.js.map": "https://amng.github.io/portfolio/static/js/runtime-main.1e926a6b.js.map",
+    "static/js/2.facdff10.chunk.js": "https://amng.github.io/portfolio/static/js/2.facdff10.chunk.js",
+    "static/js/2.facdff10.chunk.js.map": "https://amng.github.io/portfolio/static/js/2.facdff10.chunk.js.map",
+    "index.html": "https://amng.github.io/portfolio/index.html",
+    "precache-manifest.2be182fbf8436ced957446134a3ba676.js": "https://amng.github.io/portfolio/precache-manifest.2be182fbf8436ced957446134a3ba676.js",
+    "service-worker.js": "https://amng.github.io/portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "https://amng.github.io/portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.facdff10.chunk.js.LICENSE.txt": "https://amng.github.io/portfolio/static/js/2.facdff10.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e52a46c.js",
+    "static/js/runtime-main.1e926a6b.js",
     "static/js/2.facdff10.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8e59ae15.chunk.js"
+    "static/js/main.6718a4b6.chunk.js"
   ]
 }
