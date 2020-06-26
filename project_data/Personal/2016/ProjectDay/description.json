@@ -1,0 +1,18 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "A website that lets me share youtube songs with someone.It uses polymer for the material design look.",
+    "Media": [
+        "project_data/Personal/2016/ProjectDay/Screenshot from 2017-03-24 13-21-52.jpg",
+        "project_data/Personal/2016/ProjectDay/Screenshot from 2017-03-24 13-21-59.jpg"
+    ],
+    "ProjectName": "ProjectDay",
+    "State": "Maintenance",
+    "Subject": "",
+    "Tags": [
+        "PHP (Codeigniter)",
+        "Polymer"
+    ],
+    "URL": {}
+}

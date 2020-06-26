@@ -1,0 +1,18 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "P2Peer is an application that allows file sharing/transfer using peer-to-peer architecture.",
+    "Media": [
+        "project_data/College/Year 3/P2Peer/sdisp11.jpg",
+        "project_data/College/Year 3/P2Peer/sdisp12.jpg"
+    ],
+    "ProjectName": "P2Peer",
+    "State": "",
+    "Subject": "Sistemas Distribu\u00eddos",
+    "Tags": [
+        "Java"
+    ],
+    "URL": {}
+}

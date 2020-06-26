@@ -1,0 +1,129 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-3 {
+                fill: #cddc39;
+            }
+
+            .cls-1,
+            .cls-2 {
+                stroke: #4d4d4d;
+                stroke-miterlimit: 10;
+            }
+
+            .cls-1 {
+                stroke-width: 0.25px;
+            }
+
+            .cls-2 {
+                fill: #fff;
+            }
+
+            .cls-3 {
+                font-size: 45.42px;
+                font-family: Roboto-Black, Roboto;
+                font-weight: 800;
+            }
+
+            .cls-4 {
+                fill: none;
+            }
+
+            .frontPage{
+                //transform: rotate(-10deg);
+            }
+            .secondpage{
+                //transform: rotate(-200deg);
+            }
+
+            ._404Page
+            {
+                transform: translateY(-50px);
+            }
+            ._404Page
+            {
+                transform-box: fill-box;
+		        transform-origin: 50% 50%;
+                animation-name: page404Animation;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+            }
+            .page {
+                animation: pageAnimation 10s ease-in-out infinite;
+            }
+            .frontPage
+            {
+                animation-delay: 6s;
+            }
+            .secondpage
+            {
+                animation-delay: 5s;
+            }
+            .thirdpage
+            {
+                animation-delay: 4s;
+            }
+            .fourthpage
+            {
+                animation-delay: 3s;
+            }
+            .fithpage
+            {
+                animation-delay: 2s;
+            }
+            .sixthpage
+            {
+                animation-delay: 1s;
+            }
+            .seventhpage
+            {
+                animation-delay: 0s;
+            }
+            .pages{
+                transform: translateY(-10px);
+            }
+	
+            @keyframes pageAnimation{
+                0%{transform: translateY(0px);}
+                3%{transform: translateY(-65px) rotate(5deg)} 
+                7%{transform: translateY(0px) } 
+                100%{transform: translateY(0px);}
+            }
+
+            @keyframes page404Animation{
+                0%{transform: translateY(-14px);}
+                70%{transform: translateY(-14px);}
+                75%{transform: translateX(0px) translateY(-90px) rotate(20deg) scale(1);} 
+                95%{transform: translateX(0px) translateY(-90px) rotate(20deg) scale(1);} 
+                100%{transform: translateY(-14px);}
+            }
+            .icon
+            {
+                transform: translate(45px, 120px);
+            }
+        </style>
+    </defs>
+    <g class="icon" style="tranform: translateY(100px);">
+    <rect class="backCover cls-1" x="9.87" y="5.49" width="98.67" height="73.41" rx="10" />
+    <g class="pages">
+    <g class="_404Page"> 
+    <rect class="pageText cls-2" x="14.24" y="15.12" width="89.93" height="59.42" />
+    <text class="pageText cls-3" transform="translate(19.72 62.32)">404
+    </text>        
+    </g>
+    <rect class="frontPage page cls-2" x="14.24" y="2.9" width="89.93" height="59.42" />
+    <rect class="secondpage page cls-2" x="14.24" y="4.65" width="89.93" height="59.42" />
+    <rect class="thirdpage page cls-2" x="14.24" y="6.39" width="89.93" height="59.42" />
+    <rect class="fourthpage page cls-2" x="14.24" y="8.14" width="89.93" height="59.42" />
+    <rect class="fithpage page cls-2" x="14.24" y="9.88" width="89.93" height="59.42" />
+    <rect class="sixthpage page cls-2" x="14.24" y="11.63" width="89.93" height="59.42" />
+    <rect class="seventhpage page cls-2" x="14.24" y="13.37" width="89.93" height="59.42" />
+    </g>
+    <path class="cls-4" d="M10.8,74.24H129.2V192.65H10.8Z" transform="translate(-10.8 -58.91)" />
+    <path class="frontCover cls-1"
+        d="M109.47,68.9H70L60.13,59H30.53a9.85,9.85,0,0,0-9.81,9.87l0,59.2A9.89,9.89,0,0,0,30.53,138h78.94a9.89,9.89,0,0,0,9.86-9.87V78.77A9.89,9.89,0,0,0,109.47,68.9Z"
+        transform="translate(-10.8 -58.91)" />
+        </g>
+</svg>

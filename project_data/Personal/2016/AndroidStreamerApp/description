@@ -1,0 +1,9 @@
+<strong>Programming tools:</strong> Java (Spring) + Android
+<strong>State:</strong> Maintenance
+<strong>Authors:</strong> Artur Gomes
+
+A app and server that allow to see pc files on the android device (for example: movie streaming) using the prefered android apps.
+
+
+<a target="_blank" href="https://github.com/amng/AndroidStreamerApp"> Project link (App) </a>
+<a target="_blank" href="https://github.com/amng/AndroidStreamerServer"> Project link (Server)</a>

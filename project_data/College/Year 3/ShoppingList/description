@@ -1,0 +1,5 @@
+<strong>Subject:</strong> Laboratório de Bases de Dados e Aplicações Web
+<strong>Programming tools:</strong> HTML, CSS, Javascript, PHP
+<strong>Authors:</strong> Artur Gomes, Vitor Figueira
+
+MyShoppingList is a web application that allows the users to manage the amount of food, drinks, etc. This application uses the user preferences such as the minimum amount of a determined food for example to generate a shopping list when needed.

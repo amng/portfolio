@@ -1,0 +1,20 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "Exploring Mars is an application in which the objective is to simulate a cooperative environment in which robots would explore all the ore that exists in the mines that exists in planet mars, this without knowing previously the exploration area.",
+    "Media": [
+        "project_data/College/Year 4/Exploring Mars/aiad1.jpg",
+        "project_data/College/Year 4/Exploring Mars/aiad2.jpg",
+        "project_data/College/Year 4/Exploring Mars/aiad3.jpg"
+    ],
+    "ProjectName": "Exploring Mars",
+    "State": "",
+    "Subject": "Agentes e Intelig\u00eancia Artificial Distribu\u00edda",
+    "Tags": [
+        "Java",
+        "Repast"
+    ],
+    "URL": {}
+}

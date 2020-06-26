@@ -1,0 +1,17 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "SpriteCreator is an application that allows to create a \"sprite\" (an image composed of lots of other images) with the wanted dimensions.",
+    "Media": [
+        "project_data/Personal/2012/SpriteCreator/Capturar1.jpg",
+        "project_data/Personal/2012/SpriteCreator/Capturar.jpg"
+    ],
+    "ProjectName": "SpriteCreator",
+    "State": "Maintenance",
+    "Subject": "",
+    "Tags": [
+        "Java"
+    ],
+    "URL": {}
+}
