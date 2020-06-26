@@ -1,0 +1,161 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
+<style type="text/css">
+
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#D73D65;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#F7E597;}
+	.st3{fill:#2F3DF9;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#FFFF00;stroke:#FF0000;stroke-width:0.25;stroke-miterlimit:10;}
+    .st6{fill:none;stroke:#FFE746;stroke-width:2;stroke-miterlimit:10;}
+    
+    #wholeFace
+    {
+        transform-box: fill-box;
+        transform-origin: 50% 50%;
+        transform: translate(50px, 70px) rotate(-30deg);
+    } 
+
+
+	#Layer_1:hover > g > g > #eye1, #Layer_1:hover > g > g > #eye2 {
+        transform-box: fill-box;
+        transform-origin: 50% 50%;
+        animation: eyesAnimation 3s ease-in;
+    }
+
+    #Layer_1:hover > g > #eye1_wrapper, #Layer_1:hover > g > #eye2_wrapper {
+        transform-box: fill-box;
+        transform-origin: 50% 50%;
+        animation-delay: 3s;
+        animation: eyesAnimationIdle 2s ease-out infinite 3s;
+    }
+
+    #flame
+    {
+        transform: scale(0);
+    }
+
+    #fuse
+    {
+        transform: scale(0);
+    }
+    #Layer_1:hover > g  > #flame  {
+		transform-box: fill-box;
+        transform-origin: 50% 50%;
+        animation: flameAnimation 0.3s linear 10;
+    }
+
+    #Layer_1:hover > g > #flame > #flame_path
+    {
+        offset-path: path('M23.13,71.36L23.13,71.36c-1.06-3.43,1.86-6.79,5.4-6.21l17.81,2.89c7.68,1.25,14.12-5.79,12.19-13.33 L54.9,40.48');
+		transform-box: fill-box;
+        transform-origin: 50% 50%;
+        animation: flameMoveAnimation 3s ease-in;
+    }
+
+    #Layer_1:hover > g > #fuse {
+        stroke-dasharray: 64;
+        stroke-dashoffset: 0;
+        animation: fuseAnimation 3s ease-in;
+    }
+    
+     #Layer_1:hover > g > #bomb_body{
+        transform-box: fill-box;
+        transform-origin: 50% 50%;
+        animation: bombBodyAnimation 0.3s ease-in-out 10;
+    }
+     @keyframes bombBodyAnimation {
+        0%{transform: scale(1);}
+        50%{transform: scale(1.05);}
+        100%{transform: scale(1);}
+
+    }
+
+    @keyframes fuseAnimation {
+        0%{stroke-dashoffset: 0; transform: scale(1);}
+        75%{stroke-dashoffset: 63; transform: scale(1);}
+        100%{stroke-dashoffset: 63; transform: scale(1);} 
+
+    }
+
+    @keyframes flameAnimation{
+	  0%{transform: scale(1); }
+      50%{transform: scale(1.3); } 
+      100%{transform: scale(1); } 
+    }
+    
+    @keyframes flameMoveAnimation{
+	  0%{offset-distance: 100%;}
+      75%{offset-distance: 0%; transform: scale(1)} 
+      100%{offset-distance: 0%; transform: scale(200);}
+	}
+
+    @keyframes eyesAnimationIdle
+    {
+        0%{transform: scale(0.5)}
+        10%{transform: scale(1.2)}
+        20%{transform: scale(0.5)}
+        30%{transform: scale(1)}
+	    100%{transform: scale(1)} 
+    }
+
+	@keyframes eyesAnimation{
+	  0%{transform: scale(1)}
+	  100%{transform: scale(3)} 
+	}
+
+</style>
+		<g id="hat">
+			<path class="st0" d="M67.56,42.93L67.56,42.93c0-3.09,0.87-6.13,2.52-8.75l2.99-4.75l-0.42,3.06c-0.32,2.38,0.19,4.8,1.45,6.84v0
+				"/>
+			<circle class="st1" cx="72.77" cy="28.37" r="8.16"/>
+		</g>
+		<g id="left_arm">
+			<path class="st0" d="M96.85,115.74L96.85,115.74c-0.97,3.21-4.73,5.03-8.39,4.07l-36.84-9.68c-3.66-0.96-5.84-4.34-4.87-7.55l0,0
+				c0.97-3.21,4.73-5.03,8.39-4.07l36.84,9.68C95.64,109.15,97.82,112.53,96.85,115.74z"/>
+			<circle class="st1" cx="46.4" cy="102.2" r="10.44"/>
+		</g>
+		<g id="right_arm">
+			<path class="st0" d="M116.34,107.19L116.34,107.19c-2.92-1-4.48-4.51-3.48-7.85l10.07-33.62c1-3.34,4.18-5.24,7.11-4.24v0
+				c2.92,1,4.48,4.51,3.48,7.85l-10.07,33.62C122.45,106.28,119.27,108.18,116.34,107.19z"/>
+			<circle class="st1" cx="130.38" cy="61.16" r="9.62"/>
+		</g>
+		<g id="face">
+			<path class="st2" d="M105.63,80.92l-20.3,11.12c-7.55,4.14-17.03,1.37-21.17-6.18l-9.09-16.59c-4.14-7.55-1.37-17.03,6.18-21.17
+				l20.3-11.12c7.55-4.14,17.03-1.37,21.17,6.18l9.09,16.59C115.95,67.3,113.18,76.78,105.63,80.92z"/>
+			<path class="st0" d="M83.5,32.87l-27.93,15.3c-6.96,3.81-8.61,14.19-3.69,23.17l8.54,15.59c4.92,8.98,14.55,13.17,21.51,9.36
+				l27.93-15.3c6.96-3.81,8.61-14.19,3.69-23.17l-8.54-15.59C100.09,33.25,90.46,29.06,83.5,32.87z M107.31,56.33
+				c4.92,8.98,3.27,19.36-3.69,23.17L84.03,90.23c-6.96,3.81-16.59-0.38-21.51-9.36l-4.4-8.03c-4.92-8.98-3.27-19.36,3.69-23.17
+				L81.4,38.94c6.96-3.81,16.59,0.38,21.51,9.36L107.31,56.33z"/>
+			<g id="eye1_wrapper">
+            <path id="eye1" d="M76.63,71.52l-2.74,1.5c-0.72,0.4-1.63,0.13-2.03-0.59l-7.54-13.77c-0.4-0.72-0.13-1.63,0.59-2.03l2.74-1.5
+				c0.72-0.4,1.63-0.13,2.03,0.59l7.54,13.77C77.61,70.22,77.35,71.13,76.63,71.52z"/>
+			</g>
+            <g id="eye2_wrapper">
+            <path id="eye2" d="M94.57,61.69l-2.74,1.5c-0.72,0.4-1.63,0.13-2.03-0.59l-7.54-13.77c-0.4-0.72-0.13-1.63,0.59-2.03l2.74-1.5
+				c0.72-0.4,1.63-0.13,2.03,0.59l7.54,13.77C95.56,60.39,95.3,61.29,94.57,61.69z"/>
+            </g>
+            </g>
+        </g>
+		
+			<ellipse id="body" transform="matrix(0.8728 -0.4881 0.4881 0.8728 -45.4519 71.6283)" class="st3" cx="114.69" cy="123.01" rx="21.23" ry="39.38"/>
+          	<rect x="93.48" y="119.1" transform="matrix(0.866 -0.5 0.5 0.866 -46.1822 73.8382)" width="42.43" height="8"/>
+    		<rect x="109.83" y="119.89" transform="matrix(0.866 -0.5 0.5 0.866 -46.1822 73.8382)" class="st6" width="9.73" height="6.41"/>
+
+		<g id="bomb">
+			<path id="bomb_body" d="M29,73.08c-0.72-1.15-2.06-1.71-3.37-1.45c-0.33-0.65-1.11-0.93-1.78-0.61l-1.87,0.89c-0.66,0.31-0.94,1.1-0.65,1.76
+				c-1.01,0.83-1.43,2.2-1.03,3.47c-1.5,1.2-2.85,2.63-4,4.29c-6.36,9.21-4.05,21.83,5.16,28.19c9.21,6.36,21.83,4.05,28.19-5.16
+				s4.05-21.83-5.16-28.19C39.8,73,34.2,72.03,29,73.08z"/>
+			<path id="fuse" class="st4" d="M23.13,71.36L23.13,71.36c-1.06-3.43,1.86-6.79,5.4-6.21l17.81,2.89c7.68,1.25,14.12-5.79,12.19-13.33
+				L54.9,40.48"/>
+                <g  id="flame">
+			<polygon id="flame_path" class="st5" points="52.25,38.97 53.8,39.72 52.97,38.21 54.21,39.41 53.9,37.72 54.71,39.23 54.93,37.53 55.23,39.22 
+				55.97,37.67 55.74,39.37 56.92,38.12 56.17,39.67 57.68,38.84 56.49,40.08 58.17,39.77 56.66,40.58 58.36,40.8 56.67,41.1 
+				58.22,41.84 56.52,41.61 57.77,42.79 56.22,42.04 57.05,43.55 55.81,42.36 56.12,44.05 55.31,42.53 55.09,44.23 54.79,42.54 
+				54.05,44.1 54.28,42.39 53.1,43.64 53.85,42.1 52.34,42.92 53.53,41.68 51.84,41.99 53.36,41.18 51.66,40.96 53.35,40.66 
+				51.8,39.92 53.5,40.16 			"/>
+                </g>
+		</g>
+
+</svg>
+

@@ -1,0 +1,22 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "A app and server that allow to see the songs that you have in the game ultrastar. Which allows the players that are waiting to pick the next songs while others are playing.",
+    "Media": [
+        "project_data/Personal/2016/UltrastarSongViewer/1.jpg",
+        "project_data/Personal/2016/UltrastarSongViewer/2.jpg",
+        "project_data/Personal/2016/UltrastarSongViewer/3.png"
+    ],
+    "ProjectName": "UltrastarSongViewer",
+    "State": "Maintenance",
+    "Subject": "",
+    "Tags": [
+        "Java (Spring)",
+        "Android"
+    ],
+    "URL": {
+        "Project link (App)": "https://github.com/amng/UltrastarSongViewer-Android-app-",
+        "Project link (Server)": "https://github.com/amng/UltrastarSongViewer-Server-"
+    }
+}

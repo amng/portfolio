@@ -1,0 +1,6 @@
+<strong>Programming tools:</strong> Java
+<strong>State:</strong> In Development (Early Stage) - Currently On hold
+<strong>Authors:</strong> Artur Gomes
+
+Lightbox is an application which main purpose is to easily create animations for led cubes.
+The main idea is that anyone who creates a led cube can use this application first to simulate animations and then to transfer those animations to the led cube (for example arduino), in order to create easily many different animations which can be synced for example with music.

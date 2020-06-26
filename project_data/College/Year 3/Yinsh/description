@@ -1,0 +1,5 @@
+<strong>Subject:</strong> Programação em Lógica, Laboratório de Aplicações com Interface Gráfica
+<strong>Programming tools:</strong> Prolog, C++, OpenGL
+<strong>Authors:</strong> Artur Gomes, Vitor Figueira
+
+Yinsh is an adaption of the board game with the same name, for computer. This adaption used logic programming for game logic such as rules, and opengl for the visual interface.

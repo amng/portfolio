@@ -1,0 +1,8 @@
+<strong>Programming tools:</strong> Java (Intellij - Android Studio plugin)
+<strong>State:</strong> Maintenance
+<strong>Authors:</strong> Artur Gomes
+
+Plugin for Android Studio that adds @Suppressed notation to android espresso/junit tests. This way you select which tests you want to run without the need to scroll over all the code.
+
+
+<a target="_blank" href="https://github.com/amng/TestSelector"> Project link </a>

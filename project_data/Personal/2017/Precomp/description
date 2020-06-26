@@ -1,0 +1,6 @@
+<strong>Programming tools:</strong> Python (Flask) + Polymer
+<strong>State:</strong> Under Development
+<strong>Authors:</strong> Artur Gomes
+
+A price comparison website that was done in order to compare prices for computer parts as a start but can actually compare prices for anything. <br>
+It uses polymer for the material design look.

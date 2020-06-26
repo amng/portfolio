@@ -1,0 +1,19 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "Blokus is an adaption of the board game to a computer game. The main goal of this project was to use VDM++ to specify all the game conditions, pre-conditions, and so on, which allowed to specify all the game logic. Later the VDM++ project was used to generate Java code in order to create a playable version of the game with a visual interface.",
+    "Media": [
+        "project_data/College/Year 4/Blokus/mfes1.jpg",
+        "project_data/College/Year 4/Blokus/mfes2.jpg"
+    ],
+    "ProjectName": "Blokus",
+    "State": "",
+    "Subject": "M\u00e9todos Formais em Engenharia de Software",
+    "Tags": [
+        "VDM++",
+        "Java"
+    ],
+    "URL": {}
+}

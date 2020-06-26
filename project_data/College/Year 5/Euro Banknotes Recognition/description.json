@@ -1,0 +1,24 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira",
+        "Mariana Lopes"
+    ],
+    "Description": "This project main goal was to recognize euro banknotes using a picture, a photo or a video. Many algorithms combinations were used:<table style=\"border: solid 1px white;\" cellspacing=\"0\" align=\"center\"><tr><th>Detector</th><th>Extractor</th><th>Matcher</th></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >BRUTEFORCE</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >FLANN</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >BRUTEFORCE</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >FLANN</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >BRUTEFORCE</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SIFT</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >FLANN</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >BRUTEFORCE</td></tr><tr><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >SURF</td><td  style=\"border: solid 1px white; padding: 2px 20px\" >FLANN</td></tr></table>",
+    "Media": [
+        "project_data/College/Year 5/Euro Banknotes Recognition/print SurfSurfFlannY.jpg",
+        "project_data/College/Year 5/Euro Banknotes Recognition/sift sift     detec\u00c3\u0192\u00c2\u00a7\u00c3\u0192\u00c2\u00a3o bruteforce 10eur.jpg",
+        "project_data/College/Year 5/Euro Banknotes Recognition/sift surf flan sem quadrados 10eur.jpg",
+        "project_data/College/Year 5/Euro Banknotes Recognition/surf surf detec\u00c3\u0192\u00c2\u00a7\u00c3\u0192\u00c2\u00a3o     bruteforce.jpg",
+        "project_data/College/Year 5/Euro Banknotes Recognition/SurfSiftFlannN.jpg",
+        "project_data/College/Year 5/Euro Banknotes Recognition/SurfSurfFlannN.jpg"
+    ],
+    "ProjectName": "Euro Banknotes Recognition",
+    "State": "",
+    "Subject": "Augmented and Virtual Reality",
+    "Tags": [
+        "OpenCV",
+        "C++"
+    ],
+    "URL": {}
+}

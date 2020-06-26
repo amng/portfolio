@@ -1,0 +1,5 @@
+<strong>Subject:</strong> Augmented and Virtual Reality
+<strong>Programming tools:</strong> ARToolKit, C++
+<strong>Authors:</strong> Artur Gomes, Vitor Figueira and Mariana Lopes
+
+This project main goal was to create a game using augmented reality. Therefore we created a game in which we used the augmented reality symbols to create a control board, which would control 2 cannons. The main objective of this game is to destroy the other cannon.

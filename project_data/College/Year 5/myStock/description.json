@@ -1,0 +1,25 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "This project main goal was to create an application for windows phone that uses Yahoo stock information in order to create one or more portfolios in order to follow the stock prices you own.",
+    "Media": [
+        "project_data/College/Year 5/myStock/Screenshot - 01_12_2013 , 12_00_05.jpg",
+        "project_data/College/Year 5/myStock/Screenshot - 01_12_2013 , 12_00_45.jpg",
+        "project_data/College/Year 5/myStock/Screenshot - 01_12_2013 , 12_03_51.jpg",
+        "project_data/College/Year 5/myStock/Screenshot - 01_12_2013 , 12_04_24.jpg",
+        "project_data/College/Year 5/myStock/seq1.jpg",
+        "project_data/College/Year 5/myStock/seq2.jpg",
+        "project_data/College/Year 5/myStock/seq3.jpg",
+        "project_data/College/Year 5/myStock/seq4.jpg"
+    ],
+    "ProjectName": "myStock",
+    "State": "",
+    "Subject": "Mobile Computing",
+    "Tags": [
+        "WP8",
+        "C#"
+    ],
+    "URL": {}
+}

@@ -1,0 +1,5 @@
+<strong>Programming tools:</strong> Android
+<strong>Estado:</strong> Under Development - Currently on hold
+<strong>Authors:</strong> Artur Gomes
+
+PasswordSaver is an application that allows users to store and later see which passwords were used in which websites/services. In order to protect the passwords the AES-256 encryption algorithm is used.

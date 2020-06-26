@@ -1,0 +1,23 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "<strong>Estado:</strong> Under Development - Currently on holdPasswordSaver is an application that allows users to store and later see which passwords were used in which websites/services. In order to protect the passwords the AES-256 encryption algorithm is used.",
+    "Media": [
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-124658.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125008.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125050.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125101.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125115.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125130.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125137.jpg",
+        "project_data/Personal/2012/PasswordSaver/device-2013-09-29-125142.jpg"
+    ],
+    "ProjectName": "PasswordSaver",
+    "State": "",
+    "Subject": "",
+    "Tags": [
+        "Android"
+    ],
+    "URL": {}
+}

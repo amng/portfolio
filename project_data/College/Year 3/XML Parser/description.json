@@ -1,0 +1,20 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "XML parser is a program that allows to parse a determined xml file allowing it to represent the 3D scene described in it.",
+    "Media": [
+        "project_data/College/Year 3/XML Parser/laig1.jpg",
+        "project_data/College/Year 3/XML Parser/laig2.jpg",
+        "project_data/College/Year 3/XML Parser/laig3.jpg"
+    ],
+    "ProjectName": "XML Parser",
+    "State": "",
+    "Subject": "Laborat\u00f3rio de Aplica\u00e7\u00f5es com Interface Gr\u00e1fica",
+    "Tags": [
+        "C++",
+        "OpenGL"
+    ],
+    "URL": {}
+}
