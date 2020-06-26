@@ -1,40 +1,4 @@
 {
-<<<<<<< HEAD
-    "Education": {
-        "2017": {
-            "Project1": [
-                "description.json"
-            ],
-            "Project2": [
-                "description.json"
-            ]
-        },
-        "2018": {
-            "Project1": [
-                "description.json"
-            ],
-            "Project2": [
-                "description.json"
-            ]
-        }
-    },
-    "Personal": {
-        "2017": {
-            "Project1": [
-                "description.json"
-            ],
-            "Project2": [
-                "description.json"
-            ]
-        },
-        "2018": {
-            "Project1": [
-                "description.json"
-            ],
-            "Project2": [
-                "description.json"
-            ]
-=======
     "College": {
         "Year 2": {
             "Battleship": {
@@ -199,7 +163,6 @@
                 "Description": "description.json",
                 "PreviewImage": "project_data/Personal/2017/Precomp/Screenshot from 2017-03-24 13-21-24.jpg"
             }
->>>>>>> 635b2c4... First commit, added portfolio for testing
         }
     }
 }
