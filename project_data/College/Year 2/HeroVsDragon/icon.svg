@@ -252,7 +252,7 @@
     .smoke, .smoke2
     {
         fill:none;
-        stroke:#808080;
+        stroke:#ffffff;
         stroke-width:1;
         opacity: 0%;
         stroke-miterlimit:200;
@@ -278,9 +278,9 @@
 
      @keyframes SmokeAnimation
     {
-        0%{stroke-dashoffset: 128; opacity: 90%; stroke-width:0.5;}
-        50%{stroke-dashoffset: 110; opacity: 50%; stroke-width:1.5;}
-        80%{stroke-dashoffset: 0; opacity: 10%; stroke-width:2;}
+        0%{stroke-dashoffset: 128; opacity: 90%; stroke-width:1;}
+        50%{stroke-dashoffset: 110; opacity: 50%; stroke-width:2;}
+        80%{stroke-dashoffset: 0; opacity: 10%; stroke-width:4;}
         100%{stroke-dashoffset: 0; opacity: 0%; stroke-width:4;}
     }
 
