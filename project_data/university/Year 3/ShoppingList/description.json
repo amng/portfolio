@@ -1,0 +1,22 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "MyShoppingList is a web application that allows the users to manage the amount of food, drinks, etc. This application uses the user preferences such as the minimum amount of a determined food for example to generate a shopping list when needed.",
+    "Media": [
+        "project_data/university/Year 3/ShoppingList/lbaw1.jpg",
+        "project_data/university/Year 3/ShoppingList/lbaw2.jpg",
+        "project_data/university/Year 3/ShoppingList/lbaw3.jpg"
+    ],
+    "ProjectName": "ShoppingList",
+    "State": "",
+    "Subject": "Laborat\u00f3rio de Bases de Dados e Aplica\u00e7\u00f5es Web",
+    "Tags": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP"
+    ],
+    "URL": {}
+}

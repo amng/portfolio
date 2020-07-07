@@ -1,0 +1,18 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "Device Information is an application that uses the website <a href=\"http://www.gsmarena.com\" target=\"blank\"> gsmarena </a>, in order to obtain all the specifications of a determined smartphone.",
+    "Media": [
+        "project_data/personal/2012/Device Information/Capturar1.jpg",
+        "project_data/personal/2012/Device Information/Capturar2.jpg",
+        "project_data/personal/2012/Device Information/Capturar.jpg"
+    ],
+    "ProjectName": "Device Information",
+    "State": "Maintenance",
+    "Subject": "",
+    "Tags": [
+        "Java"
+    ],
+    "URL": {}
+}

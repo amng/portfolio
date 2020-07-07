@@ -1,0 +1,18 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "This project main goal was to create a new template for a CV with a design that would be different from the usual.The design was inspired by the Google Material Design for the Android 5.0 L version, using the font Roboto from Android.",
+    "Media": [
+        "project_data/personal/2014/MaterialCV/material.jpg"
+    ],
+    "ProjectName": "MaterialCV",
+    "State": "Maintenance",
+    "Subject": "",
+    "Tags": [
+        "Latex"
+    ],
+    "URL": {
+        "Project link": "https://github.com/amng/MaterialCv"
+    }
+}

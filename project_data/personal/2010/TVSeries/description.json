@@ -1,0 +1,19 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "TVSeries is an application for android that allows to check if a new episode of your favourite TV series has been aired already, getting its information from <a href=\"http://thetvdb.com/\" target=\"blank\"> thetvdb </a>",
+    "Media": [
+        "project_data/personal/2010/TVSeries/1.jpg",
+        "project_data/personal/2010/TVSeries/2.jpg",
+        "project_data/personal/2010/TVSeries/3.jpg",
+        "project_data/personal/2010/TVSeries/4.jpg"
+    ],
+    "ProjectName": "TVSeries",
+    "State": "Maintenance",
+    "Subject": "",
+    "Tags": [
+        "Android"
+    ],
+    "URL": {}
+}

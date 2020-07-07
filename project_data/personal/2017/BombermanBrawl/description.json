@@ -1,0 +1,17 @@
+{
+    "Authors": [
+        "Artur Gomes"
+    ],
+    "Description": "A game based on bomberman made using unreal engine.This file will be updated once the game is in a much more advanced stage.Wallpaper from: http://wallpaperpulse.com/img/4528304.png",
+    "Media": [
+        "project_data/personal/2017/BombermanBrawl/bombermanbrawl1.png",
+        "project_data/personal/2017/BombermanBrawl/bombermanbrawl2.png"
+    ],
+    "ProjectName": "BombermanBrawl",
+    "State": "Under Development",
+    "Subject": "",
+    "Tags": [
+        "Unreal Engine 4"
+    ],
+    "URL": {}
+}

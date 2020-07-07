@@ -1,0 +1,21 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "Book&Share is a copycat version of the website <a target=\"blank\" href=\"http://delicious.com/\">Delicious</a>",
+    "Media": [
+        "project_data/university/Year 3/BookandShare/ltw1.jpg",
+        "project_data/university/Year 3/BookandShare/ltw2.jpg"
+    ],
+    "ProjectName": "BookandShare",
+    "State": "",
+    "Subject": "Linguagens e Tecnologias Web",
+    "Tags": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP"
+    ],
+    "URL": {}
+}
