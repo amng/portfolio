@@ -33,7 +33,7 @@
             },
             "MaterialCV": {
                 "Description": "description.json",
-                "PreviewImage": "project_data/personal/2014/MaterialCV/material.jpg"
+                "PreviewImage": "project_data/personal/2014/MaterialCV/icon.svg"
             }
         },
         "2015": {
@@ -63,7 +63,7 @@
             },
             "MaterialCV 2": {
                 "Description": "description.json",
-                "PreviewImage": "project_data/personal/2017/MaterialCV 2/preview2.png"
+                "PreviewImage": "project_data/personal/2017/MaterialCV 2/icon.svg"
             },
             "Precomp": {
                 "Description": "description.json",
