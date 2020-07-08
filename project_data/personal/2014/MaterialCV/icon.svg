@@ -162,6 +162,7 @@
         }
         15%
         {
+            opacity: 100%;
             transform: translateX(140px);
         }
         16%
