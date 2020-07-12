@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    y="0px" viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
+    <style type="text/css">
+        .st0 {
+            fill: none;
+        }
+
+        .st1 {
+            fill: #FFFFFF;
+            stroke: #000000;
+            stroke-width: 0.25;
+            stroke-miterlimit: 10;
+        }
+
+        .st2 {
+            fill: #808080;
+        }
+
+        .st3 {
+            fill: none;
+            stroke: #000000;
+            stroke-miterlimit: 10;
+        }
+
+        svg:hover #phoneContent {
+            transform-box: fill-box;
+            transform-origin: 50% 50%;
+            animation: animatePhoneContent 1s forwards;
+        }
+
+        svg:hover #phoneContentApp {
+            clip-path: circle(0px);
+            animation: animatePhoneContentScreen 1s forwards;
+            animation-delay: 1s;
+        }
+
+        #connection {
+            opacity: 0;
+        }
+
+        svg:hover #connection {
+            opacity: 0%;
+            stroke-dasharray: 1;
+            stroke-dashoffset: 0;
+            animation: animateConnection 2s forwards;
+            animation-delay: 0.5s;
+
+        }
+
+        svg:hover #file {
+            transform-box: fill-box;
+            transform-origin: 50% 50%;
+            animation: fileTransferAnimation 2s linear forwards;
+            animation-delay: 0.5s;
+        }
+
+        svg:hover #file_outer {
+            transform-box: fill-box;
+            transform-origin: 50% 50%;
+            animation: fileHideAnimation 0.1s linear forwards;
+            animation-delay: 2.5s;
+        }
+
+        svg:hover #phoneContentAppOuter
+        {
+            transform-box: fill-box;
+            transform-origin: 50% 50%;
+            animation: removeContentAppAnimation 0.5s linear forwards;
+            animation-delay: 2.5s;
+        }
+
+        svg:hover #phoneContentCropOuter {
+            opacity: 0%;
+            animation: phoneContentCropAnimation 5s infinite linear forwards;
+            animation-delay: 3s;
+        }
+
+        #phoneContentCrop {
+            clip-path: inset(0px 0px 20px 0px);
+        }
+
+        @keyframes phoneContentCropAnimation {
+            0% {
+                opacity: 100%;
+                clip-path: circle(0%);
+            }
+            15%{
+                clip-path: circle(20%);
+            }
+
+            19% {
+                clip-path: circle(0px);
+            }
+
+            20% {
+                clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+            }
+
+            21% {
+                clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+            }
+
+            30% {
+                clip-path: polygon(25% 25%, 75% 25%, 75% 75%, 25% 75%);    
+            }
+
+            50% {
+                clip-path: polygon(50% 25%, 75% 50%, 50% 75%, 25% 50%);
+            }
+
+            70% {
+                clip-path: polygon(40% 35%, 60% 35%, 75% 65%, 25% 65%);
+            } 
+
+            98% {
+                clip-path: polygon(35% 35%, 65% 35%, 55% 65%, 45% 65%);
+            } 
+
+            100%{
+                clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+                opacity: 100%;
+            }
+            
+
+
+        }
+
+         
+        @keyframes removeContentAppAnimation {
+            0% {
+                clip-path: circle(100%);
+            }
+
+            100% {
+                clip-path: circle(0px);
+            }
+        }
+
+        @keyframes fileHideAnimation {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0);
+            }
+        }
+
+        @keyframes fileTransferAnimation {
+            0% {
+                transform: scale(1);
+            }
+
+            40% {
+                transform: scale(0.1);
+            }
+
+            50% {
+                transform: translateX(65px) scale(0.0);
+            }
+
+            60% {
+                transform: translateX(65px) scale(0.1);
+            }
+
+            100% {
+                transform: translateX(70px) scale(0.7);
+            }
+        }
+
+        @keyframes animateConnection {
+            0% {
+                opacity: 0%;
+                stroke-dashoffset: 20;
+            }
+
+            50% {
+                opacity: 100%;
+                stroke-dashoffset: 20;
+            }
+
+            80% {
+                opacity: 100%;
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                opacity: 0%;
+                stroke-dashoffset: 0;
+            }
+        }
+
+
+        @keyframes animatePhoneContentScreen {
+            0% {
+                clip-path: circle(0px);
+            }
+
+            100% {
+                clip-path: circle(200% at 20px 8px);
+            }
+        }
+
+        @keyframes animatePhoneContent {
+            0% {
+
+                transform: translateY(0px);
+            }
+
+            99% {
+                transform: translateY(-30px);
+                opacity: 1000%;
+            }
+
+            100% {
+                transform: translateY(-30px);
+                opacity: 0%;
+            }
+        }
+    </style>
+    <g>
+        <path id="computer" d="M73.06,88.88c3.46,0,6.26-2.83,6.26-6.29l0.03-31.46c0-3.46-2.83-6.29-6.29-6.29H22.72c-3.46,0-6.29,2.83-6.29,6.29v31.46
+		c0,3.46,2.83,6.29,6.29,6.29H10.13v6.29h75.51v-6.29H73.06z M22.72,51.12h50.34v31.46H22.72V51.12z" />
+        <path id="phone"
+            d="M124.66,50.91h-13.89c-2.88,0-5.21,2.33-5.21,5.21v27.77c0,2.88,2.33,5.21,5.21,5.21h13.89c2.88,0,5.21-2.33,5.21-5.21
+		V56.11C129.87,53.23,127.54,50.91,124.66,50.91z M121.19,85.62h-6.94v-1.74h6.94V85.62z M126.83,80.41h-18.22v-24.3h18.22V80.41z" />
+    </g>
+    <g id="phoneContentCrop">
+        <g id="phoneContent">
+            <rect x="109.53" y="61.46" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="57.37" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="65.55" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="73.74" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="69.65" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="77.84" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="86.02" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="81.93" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="90.12" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="98.31" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="94.21" class="st2" width="16.53" height="3.04" />
+            <rect x="109.53" y="102.4" class="st2" width="16.53" height="3.04" />
+        </g>
+    </g>
+
+    <g id="phoneContentAppOuter"> 
+        <rect id="phoneContentApp" x="108.53" y="56" class="st2" width="19" height="24.2" />
+    </g>
+
+    <rect id="phoneContentCropOuter" x="108.53" y="56" class="st2" width="19" height="24.2" />
+
+    <line id="connection" class="st3" x1="80.87" y1="71.08" x2="104.53" y2="71.08" />
+    <g id="file_outer">
+        <g id="file">
+            <path class="st0" d="M35.89,55h24v24h-24V55z" />
+            <path class="st1"
+                d="M41.89,57c-1.1,0-1.99,0.9-1.99,2l-0.01,16c0,1.1,0.89,2,1.99,2h12.01c1.1,0,2-0.9,2-2V63l-6-6H41.89z" />
+            <rect x="41.44" y="58.5" class="st2" width="6.45" height="1.02" />
+            <rect x="41.44" y="60.04" class="st2" width="6.45" height="1.02" />
+            <rect x="41.44" y="66.75" class="st2" width="12.95" height="1.02" />
+            <rect x="41.44" y="65.36" class="st2" width="12.95" height="1.02" />
+            <rect x="41.41" y="68.13" class="st2" width="12.95" height="1.02" />
+            <rect x="41.45" y="70.85" class="st2" width="12.95" height="1.02" />
+            <rect x="41.45" y="69.46" class="st2" width="12.95" height="1.02" />
+            <rect x="41.43" y="72.24" class="st2" width="12.95" height="1.02" />
+        </g>
+    </g>
+</svg>

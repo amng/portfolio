@@ -45,7 +45,7 @@
         "2016": {
             "AndroidStreamerApp": {
                 "Description": "description.json",
-                "PreviewImage": "project_data/personal/2016/AndroidStreamerApp/Screenshot_20170316-140824.png"
+                "PreviewImage": "project_data/personal/2016/AndroidStreamerApp/icon.svg"
             },
             "ProjectDay": {
                 "Description": "description.json",
