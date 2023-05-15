@@ -1,0 +1,32 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira"
+    ],
+    "Description": "Yinsh is an adaption of the board game with the same name, for computer. This adaption used logic programming for game logic such as rules, and opengl for the visual interface.",
+    "Media": [
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.42.30.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.44.04.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.44.10.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.44.14.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.44.25.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.44.29.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.45.12.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.47.25.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.48.10.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.49.05.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.51.58.jpg",
+        "project_data/university/Year 3/Yinsh/Captura de tela 2013-09-27 12.53.23.jpg",
+        "project_data/university/Year 3/Yinsh/plog1.jpg",
+        "project_data/university/Year 3/Yinsh/plog2.jpg"
+    ],
+    "ProjectName": "Yinsh",
+    "State": "",
+    "Subject": "Programa\u00e7\u00e3o em L\u00f3gica, Laborat\u00f3rio de Aplica\u00e7\u00f5es com Interface Gr\u00e1fica",
+    "Tags": [
+        "Prolog",
+        "C++",
+        "OpenGL"
+    ],
+    "URL": {}
+}

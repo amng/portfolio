@@ -4,11 +4,11 @@
     ],
     "Description": "Lightbox is an application which main purpose is to easily create animations for led cubes.The main idea is that anyone who creates a led cube can use this application first to simulate animations and then to transfer those animations to the led cube (for example arduino), in order to create easily many different animations which can be synced for example with music.",
     "Media": [
-        "project_data/Personal/2014/LightBox/0.jpg",
-        "project_data/Personal/2014/LightBox/1.jpg",
-        "project_data/Personal/2014/LightBox/2.jpg",
-        "project_data/Personal/2014/LightBox/3.jpg",
-        "project_data/Personal/2014/LightBox/4.jpg"
+        "project_data/personal/2014/LightBox/0.jpg",
+        "project_data/personal/2014/LightBox/1.jpg",
+        "project_data/personal/2014/LightBox/2.jpg",
+        "project_data/personal/2014/LightBox/3.jpg",
+        "project_data/personal/2014/LightBox/4.jpg"
     ],
     "ProjectName": "LightBox",
     "State": "In Development (Early Stage) - Currently On hold",

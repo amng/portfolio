@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 140 140"
+	 style="enable-background:new 0 0 140 140;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#C1272D;}
+	.st3{fill:#999999;}
+    .st4{fill:#FFFF00;}
+
+    .remote{
+        transform-box: fill-box;
+		transform-origin: 50% 50%;
+        transform: scale(0.75) translate(45px, -5px);
+    }
+    #Layer_1:hover > g > g > .status
+    {
+        animation: changeStatusAnimation 1s forwards;
+        animation-delay: 2.5s;
+    }
+
+    #Layer_1:hover > g > g > .down_btn
+    {
+        animation: switchAnimationButton 4s linear infinite;
+        animation-delay: 3s;
+    }
+    #Layer_1:hover > g > .shutdown_btn
+    {
+        animation: turnOnTv 0.5s linear;
+    }
+    .contentContainer{
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);;
+    }
+     #Layer_1:hover > g > .content
+    {
+        animation: switchAnimation 4s linear infinite;
+        animation-delay: 3s;
+    }
+    #Layer_1:hover > .overlay
+    {
+        animation: turnOnTvOverlay 3s linear forwards;
+    }
+    
+
+    #Layer_1:hover > .progressbar {
+        transform-box: fill-box;
+		transform-origin: 50% 50%;
+        stroke:red;
+        stroke-miterlimit:20;
+        stroke-dasharray: 0, 200;
+        stroke-dashoffset: 220;
+        animation: progressAnimation 1s ease-in-out 2;
+        stroke-linecap: round;
+        animation-delay: 1s;
+    }
+
+    @keyframes changeStatusAnimation
+    {
+        0%
+        {
+            fill: yellow;
+        }
+        50%
+        {
+            fill: green;
+        }
+        100%
+        {
+            fill: green;
+        }
+    }
+
+    @keyframes switchAnimationButton
+    {
+        0%
+        {
+            fill: white;
+        }
+        1%
+        {
+            fill: grey;
+        }
+        59%
+        {
+            fill:grey;
+        }
+        60%
+        {
+            fill:white;
+        }
+        100%
+        {
+            fill:white;
+        }
+    }
+    
+
+    @keyframes switchAnimation
+    {
+        0%
+        {
+            transform: translateY(0);
+        }
+        24%
+        {
+            opacity: 100%;
+        }
+        35%
+        {
+            transform: translateY(-50px);
+            opacity: 0%;
+        }
+        36%
+        {
+            opacity: 0%;
+            transform: translateY(75px);
+        }
+        40%
+        {
+            opacity: 100%;
+            transform: translateY(75px);
+        }
+        65%
+        {
+            transform: translateY(0px);
+        }
+        100%
+        {
+            transform: translateY(0px);
+        }
+    }
+
+    @keyframes turnOnTvOverlay
+    {
+        0%
+        {
+            opacity: 100%;
+        }
+        20%
+        {
+            opacity: 0%;
+        }
+        32%
+        {
+            opacity: 0%;
+        }
+        33%
+        {
+            opacity: 70%;
+        }
+        99%
+        {
+            opacity: 70%;
+        }
+        100%
+        {
+            opacity: 0%;
+        }
+    }
+    @keyframes turnOnTv
+    {
+        0%
+        {
+            fill: #C1272D
+        }
+        10%
+        {
+            fill: #511116
+        }
+        90%
+        {
+            fill: #511116
+        }
+        100%
+        {
+            fill: #C1272D
+        }
+    }
+
+    @keyframes progressAnimation
+    {
+        0%
+        {
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+        }
+        50%
+        {
+            stroke-dasharray: 89, 200;
+            stroke-dashoffset: -35;
+        } 
+        100%
+        {
+            stroke-dasharray: 89, 200;
+            stroke-dashoffset: -80;
+            transform: rotate(360deg);
+        }
+    }
+</style>
+		<rect x="11.4" y="6.28" class="st0 tv" width="117.19" height="64.6"/>
+		<path class="tv_stand" d="M89.52,81.06l-17.14-4.15v-6.03h-4.77v6.03l-17.14,4.15c-0.72,0.18-0.6,1.24,0.15,1.24h19h0.74h19
+			C90.12,82.3,90.25,81.23,89.52,81.06z"/>
+        <g class="contentContainer">
+        <g class="content" id="content">
+            <rect x="23.19" y="13.81" width="38.79" height="46.81"/>
+            <rect x="65.7" y="13.81" class="st3" width="40.17" height="5.62"/>
+            <rect x="65.7" y="27.08" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="32.37" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="37.67" class="st3" width="49.04" height="1.79"/>
+            <rect x="65.7" y="42.97" class="st3" width="49.04" height="1.79"/>
+            <rect x="65.7" y="48.27" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="53.57" class="st3" width="29.1" height="1.79"/>
+            <rect x="65.7" y="58.87" class="st3" width="29.1" height="1.79"/>
+            <rect x="65.7" y="24.43" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="29.73" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="35.02" class="st3" width="49.04" height="1.79"/>
+            <rect x="65.7" y="40.32" class="st3" width="49.04" height="1.79"/>
+            <rect x="65.7" y="45.62" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="50.92" class="st3" width="58.19" height="1.79"/>
+            <rect x="65.7" y="56.22" class="st3" width="29.1" height="1.79"/>
+            <circle class="st4 status" cx="115.45" cy="16.89" r="2.53"/>
+        </g>
+        </g>
+        
+    <rect id="overlayClip" x="11.4" y="6.28" class="overlay" width="117.19" height="64.6"/>
+    <circle class="progressbar" cx="70" cy="40" r="10" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+		<g class="remote">
+			<path class=remote_back d="M113.12,133.96l-7.11,3.81c-3.82,2.05-8.57,0.61-10.62-3.2l-17.38-32.41c-2.05-3.82-0.61-8.57,3.2-10.62l7.11-3.81
+				c3.82-2.05,8.57-0.61,10.62,3.2l17.38,32.41C118.37,127.16,116.94,131.91,113.12,133.96z"/>
+			<g>
+				<circle class="st1" cx="85.79" cy="103.62" r="2.12"/>
+				<circle class="st1" cx="92.01" cy="115.23" r="2.12"/>
+				<circle class="st1" cx="90.83" cy="100.92" r="2.12"/>
+				<circle class="st1" cx="97.05" cy="112.52" r="2.12"/>
+				<circle class="st1" cx="88.9" cy="109.43" r="2.12"/>
+				<circle class="st1" cx="95.88" cy="98.21" r="2.12"/>
+				<circle class="st1" cx="93.94" cy="106.72" r="2.12"/>
+				<circle class="st1" cx="98.99" cy="104.01" r="2.12"/>
+				<circle class="st1" cx="102.1" cy="109.81" r="2.12"/>
+			</g>
+			<circle class="st2 shutdown_btn" cx="92.33" cy="91.6" r="2.14"/>
+			<g>
+            	<circle class="st1" cx="103" cy="123.70" r="3"/>
+				<path class="st1 left_btn" d="M98.96,125.93c-0.42-0.78-0.6-1.62-0.58-2.43l-2.32-0.7c-0.19,1.42,0.04,2.91,0.77,4.27
+					c0.79,1.47,2.02,2.54,3.45,3.15l0.69-2.28C100.15,127.5,99.44,126.82,98.96,125.93z"/>
+				<path class="st1 right_btn" d="M107.17,121.53c0.48,0.89,0.65,1.86,0.56,2.78l2.28,0.69c0.28-1.52,0.07-3.15-0.72-4.62
+					c-0.73-1.36-1.84-2.38-3.13-3.01l-0.7,2.32C106.15,120.13,106.75,120.75,107.17,121.53z"/>
+				<path class="st1" d="M98.81,121.62c0.4-0.88,1.07-1.64,1.98-2.13c0.91-0.49,1.91-0.63,2.87-0.48l0.68-2.24
+					c-1.52-0.28-3.15-0.07-4.62,0.72c-1.47,0.79-2.54,2.02-3.15,3.45L98.81,121.62z"/>
+				<path class="st1 down_btn" d="M107.16,126.15c-0.41,0.75-1.03,1.39-1.83,1.81c-0.8,0.43-1.67,0.59-2.52,0.52l-0.68,2.25
+					c1.42,0.19,2.91-0.04,4.27-0.77c1.36-0.73,2.38-1.84,3.01-3.13L107.16,126.15z"/>
+			</g>
+		</g>
+
+
+</svg>

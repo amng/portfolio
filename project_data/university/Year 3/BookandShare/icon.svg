@@ -1,0 +1,207 @@
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 140 140"
+	 style="enable-background:new 0 0 140 140;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:7.095px;}
+	.st3{font-size:6.0404px;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st5{fill:#FFFF00;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st6{fill:#CCCCCC;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st7{fill:#F7931E;stroke:#000000;stroke-miterlimit:10;}
+
+    .star
+    {
+        fill: white;
+    }
+
+    .cursor{
+        fill: white;
+    }
+
+    #Layer_1:hover .cursor
+    {
+        offset-path: path('M119.57,68.2c -0.7,0.02-9.31,0.12-13.17-5.88c-5.17-8.04,2.01-21.07,8.17-21.62c6.39-0.57,15.06,12,12.26,17.7c-4.19,8.51-35.02,3.81-56.34-5.62C47.35,42.57,33.12,25.79,25.55,15');
+        transform-box: fill-box; 
+        transform-origin: 50% 50%;
+        offset-rotate: 0deg;
+        animation: flameMoveAnimation 3s ease-in-out forwards;
+    }
+
+    @keyframes flameMoveAnimation{
+	  0%{offset-distance: 0%;}
+      25%{offset-distance: 100%;}
+      75%{offset-distance: 100%; transform: translateX(0px);}
+      100%{offset-distance: 100%; transform: translateX(100px);}
+
+	}
+    .contents
+    {
+        clip-path: inset(0px 500px 0px 0px); 
+    }
+
+    #Layer_1:hover .contents
+    {
+        animation: showContent 0.1s linear forwards 1;
+        animation-delay: 2.60s;
+    }
+
+    @keyframes showContent{
+        0%{clip-path: inset(0px 500px 0px 0px); }
+        100%{clip-path: inset(0px 0px 0px 0px); }
+    }
+
+    #Layer_1:hover .star
+    {
+        animation: starAnimation 0.5s linear forwards 1;
+        animation-delay: 2.9s;
+    }
+
+    @keyframes starAnimation{
+        0%{fill: white; }
+        100%{fill: yellow; }
+    }
+
+    #url
+    {
+        clip-path: inset(0px 40px 0px 0px); 
+    }
+
+    #textCursor
+    {
+        fill: transparent;
+    }
+
+    #Layer_1:hover #url
+    {
+          /* values are from-top, from-right, from-bottom, from-left */
+        animation: typewriter 2s linear forwards;
+        animation-delay: 0.75s;
+        border: 5px solid red;
+    }
+
+    #Layer_1:hover #textCursor
+    {
+        animation: blinkTextCursor 0.4s linear forwards 5,
+        moveCursor 2s linear;
+        animation-delay: 0.75s;
+    }
+
+    #Layer_1:hover #all_content
+    {
+      animation: hideContent 5s linear forwards infinite;
+      animation-delay: 3.5s;
+    }
+
+     @keyframes hideContent{
+        0%{visibility: visible; }
+        10%{visibility: hidden; }
+        90%{visibility: hidden; }
+        91%{visibility: visible; }
+    }
+    
+    .bookmark
+    {
+       clip-path: inset(0px 0px 200px 0px); 
+    }
+    #Layer_1:hover .bookmark
+    {
+       clip-path: inset(0px 0px 200px 0px); 
+       animation: bookmarkAnimation 5s linear forwards infinite;
+       animation-delay: 3.5s;
+    }
+    @keyframes bookmarkAnimation{
+        0%{clip-path: inset(0px 0px 20px 0px); visibility: hidden; }
+        25%{clip-path: inset(0px 0px 20px 0px); visibility: hidden; }
+        40%{clip-path: inset(0px 0px 0px 0px); visibility: visible; }
+        60%{clip-path: inset(0px 0px 0px 0px); visibility: visible; }
+        75%{clip-path: inset(0px 0px 20px 0px); visibility: hidden; }
+        100%{clip-path: inset(0px 0px 20px 0px); visibility: hidden; }
+    }
+    #Layer_1:hover #outter_rect
+    {
+        transform-box: fill-box; 
+        transform-origin: 50% 50%;
+        animation: animateRect 5s linear infinite;
+        animation-delay: 3.5s;
+    }
+    @keyframes animateRect {
+        0%{width: 121.39px; }
+        10%{width: 121.39px; height: 121.39px; fill: white; transform: translateX(0px); }
+        25%{width: 46px; height: 100px; transform: translateX(37.195px); fill:#F7931E}
+        75%{width: 46px; height: 100px; transform: translateX(37.195px); fill:#F7931E}
+        90%{width: 121.39px; height: 121.39px; fill: white; transform: translateX(0px); }
+        100%{width: 121.39px; }
+    }
+
+    
+    
+    @keyframes typewriter{
+        0%{clip-path: inset(0px 40px 0px 0px); }
+        100%{clip-path: inset(0px 0px 0px 0px); }
+    }
+     @keyframes moveCursor{
+        from{transform: translateX(0px);}
+        to{transform: translateX(48px);}
+    }
+    @keyframes blinkTextCursor{
+        from{fill: rgba(0,0,0,.75);}
+        to{fill: transparent;}
+    }
+    
+    @keyframes urlAnimation{
+	  0%{transform: translate(-250px , 60px) scaleX(4)}
+	  100%{transform: translate(-200px , 60px) scaleX(4)} 
+	}
+
+</style>
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:aipgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:aipgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<rect id="outter_rect" x="9.3" y="9.3" class="st0" width="121.39" height="121.39"/>
+		<g id="all_content">
+			<rect x="9.3" y="9.3" class="st0" width="121.39" height="10.68"/>
+			<text transform="matrix(1 0 0 1 14.0743 17.3237)" class="st1 st2">url:</text>
+			<text id="url" transform="matrix(1 0 0 1 25.744 17.3237)" class="st1 st3">
+            www.awebsite.com
+            </text>
+            <rect id="textCursor" width="0.5" height="5" x="25" y="13" />
+            
+			<g class="contents">
+			<rect x="19.34" y="27" class="st6" width="48.51" height="48.51"/>
+			<rect x="71.43" y="27" class="st6" width="53.49" height="5.87"/>
+			<rect x="71.43" y="33.99" class="st6" width="33.83" height="1.74"/>
+			<rect x="71.43" y="36.92" class="st6" width="33.83" height="1.74"/>
+			<rect x="71.43" y="39.69" class="st6" width="33.83" height="1.74"/>
+			<rect x="71.43" y="42.61" class="st6" width="33.83" height="1.74"/>
+			<rect x="71.43" y="46.08" class="st6" width="53.49" height="1.74"/>
+			<rect x="71.43" y="49" class="st6" width="53.49" height="1.74"/>
+			<rect x="71.43" y="51.77" class="st6" width="53.49" height="1.74"/>
+			<rect x="71.43" y="54.69" class="st6" width="53.49" height="1.74"/>
+			<rect x="71.43" y="59.9" class="st6" width="29.23" height="1.74"/>
+			<rect x="71.43" y="62.82" class="st6" width="29.23" height="1.74"/>
+			<rect x="71.43" y="65.59" class="st6" width="29.23" height="1.74"/>
+			<rect x="71.43" y="68.51" class="st6" width="29.23" height="1.74"/>
+			<rect x="19.34" y="80.23" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="86" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="91.46" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="97.23" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="103" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="108.77" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="114.24" class="st6" width="105.57" height="3.43"/>
+			<rect x="19.34" y="120.01" class="st6" width="105.57" height="3.43"/>
+            </g>
+			<polygon class="st5 star" points="122.78,11.38 123.84,13.53 126.21,13.88 124.49,15.55 124.9,17.91 122.78,16.79 120.66,17.91 
+				121.06,15.55 119.35,13.88 121.72,13.53 			"/>
+            <polygon class="st4 cursor" points="117,63.71 116.24,69.58 118.37,68.7 119.53,71.49 120.73,70.99 119.57,68.2 121.71,67.31 			"/>
+        </g>
+		<path class="bookmark st7" d="M47.39,9.55c-0.69,0-1.26,0.57-1.26,1.27V91.4l0.39,38.04c0.01,1.08,1.27,1.65,2.08,0.95l20.58-17.96
+			c0.47-0.41,1.17-0.41,1.64,0l20.58,17.96c0.81,0.71,2.06,0.13,2.08-0.95l0.39-38.04V10.82c0-0.7-0.56-1.27-1.26-1.27H47.39z"/>
+        
+	</g>
+</switch>
+</svg>

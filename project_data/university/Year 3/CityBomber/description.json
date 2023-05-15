@@ -1,0 +1,25 @@
+{
+    "Authors": [
+        "Artur Gomes",
+        "Vitor Figueira",
+        "Jo\u00e3o Gon\u00e7alves",
+        "Jo\u00e3o Lopes"
+    ],
+    "Description": "CityBomber is a game based on the game Bomberman that was developed for Android. To play this game however the user location is used to move the character, and google maps is used as a game map.",
+    "Media": [
+        "project_data/university/Year 3/CityBomber/sdisp21.jpg",
+        "project_data/university/Year 3/CityBomber/sdisp22.jpg"
+    ],
+    "ProjectName": "CityBomber",
+    "State": "",
+    "Subject": "Sistemas Distribu\u00eddos",
+    "Tags": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Android",
+        "Java"
+    ],
+    "URL": {}
+}

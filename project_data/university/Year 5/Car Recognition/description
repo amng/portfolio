@@ -1,0 +1,6 @@
+<strong>Subject:</strong> Computer Vision
+<strong>Programming tools:</strong> OpenCV, C++
+<strong>Authors:</strong> Artur Gomes, Vitor Figueira and Ricardo Pinho
+
+This project main goal was to identify cars in pictures using the SVM algorithm trained with bag-of-words. Some of the results are presented in the pictures, in which the blue squares are classified as being part of a car. The images with red and green dots refer to the bag of words in which the green dots represent points extracted from the car and the red dots parts that are not part of the car.
+The diferent results are obtained using diferent combinations of detectors, extractors and matchers. 

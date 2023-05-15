@@ -1,0 +1,5 @@
+<strong>Subject:</strong> Computer Vision
+<strong>Programming tools:</strong> OpenCV, C++
+<strong>Authors:</strong> Artur Gomes, Vitor Figueira and Ricardo Pinho
+
+This project main goal was to identify speed limit signs on pictures and camera video in real time using template matching.

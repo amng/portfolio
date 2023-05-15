@@ -1,0 +1,5 @@
+<strong>Subject:</strong> Information Security
+<strong>Programming tools:</strong> HTML, PHP, CSS, Javascript
+<strong>Authors:</strong> Artur Gomes, Miguel Regala
+
+UGBank is a web application for a virtual bank, that was built with the main goal of demonstrating what was learned in the subject Information Security. In this web application we have implemented the main security techniques that are implemented nowadays on websites that require managing sensitive data.

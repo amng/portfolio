@@ -4,7 +4,7 @@
     ],
     "Description": "Plugin for Android Studio that adds @Suppressed notation to android espresso/junit tests. This way you select which tests you want to run without the need to scroll over all the code.",
     "Media": [
-        "project_data/Personal/2015/TestSelector/687474703a2f2f692e696d6775722e636f6d2f59494b6d4431522e6769663f31.gif"
+        "project_data/personal/2015/TestSelector/687474703a2f2f692e696d6775722e636f6d2f59494b6d4431522e6769663f31.gif"
     ],
     "ProjectName": "TestSelector",
     "State": "Maintenance",

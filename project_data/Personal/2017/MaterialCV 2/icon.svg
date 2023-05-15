@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#CCCCCC;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:12px;}
+	.st4{fill:none;}
+    .st5{fill:none;stroke:#000000;stroke-miterlimit:10;}
+                 
+    svg:hover .letterFold_later_back
+    {
+        transform-box: fill-box;
+        transform-origin: 50% 0%;
+        animation: foldAnimationLater 3s forwards linear infinite;
+        animation-delay: 4.7s;
+    }
+    svg:hover .letterFold_later_front
+    {
+        transform-box: fill-box;
+        transform-origin: 50% 0%;
+        animation: foldAnimationLaterHalf 3s forwards linear infinite;
+        animation-delay: 4.7s;
+    }
+
+    svg:hover #letterContent
+    {
+        animation: cvShowAnimation 3s forwards linear infinite;
+        animation-delay: 4.7s;
+    }
+    svg:hover #cv
+    {
+        animation: letterGoAndCome 3s forwards linear infinite;
+        animation-delay: 4.7s;
+    }
+
+    svg:hover #letterFold_2
+    {
+        transform-box: fill-box;
+        transform-origin: 50% 100%; 
+        opacity: 0;
+        animation: letterFoldAnimation 0.2s forwards linear;
+        animation-delay: 4.2s;
+    }
+    svg:hover #letterFold
+    {
+        transform-box: fill-box;
+        transform-origin: 50% 100%;
+        animation: letterFoldAnimation 0.2s forwards linear;
+        animation-delay: 4.2s;
+    }
+
+    #letter, #letterFold_outer, #letterFold 
+    {
+        transform: translateY(200px);
+    }
+    svg:hover #letter, #letterFold_outer
+    {
+        transform: translateY(200px);
+        animation: letterAnimation 0.7s forwards linear;
+        animation-delay: 3s;
+    }
+     
+    svg:hover #Layer_1 
+    {       
+        animation: cvAnimation 0.8s forwards linear;   
+        animation-delay: 3.35s;
+    }
+
+    #work, #academic, #personal
+    {
+        transform-box: fill-box;
+        transform-origin: 50% 50%;
+        opacity: 0%;
+    }
+
+    svg:hover #academic
+    {
+        opacity: 0%;
+        offset-path: path('M77.99,79.77l8.51-3.95c8.23-3.82,9.07-15.2,1.48-20.19l-0.55-0.36c-5.64-3.7-12.67-4.59-19.06-2.42L30.89,65.64');
+        animation: moveIcon 1s ease-in-out forwards;
+        animation-delay: 1s;
+    }
+
+    svg:hover #personal
+    {
+        opacity: 0%;
+        offset-path: path('M77.99,79.77l8.51-3.95c8.23-3.82,9.07-15.2,1.48-20.19l-0.55-0.36c-2.82-1.85-5.99-3-9.25-3.41c-8.33-1.06-16.32-3.94-23.01-9.01L30.89,24.43');
+        animation: moveIcon 1s ease-in-out forwards;
+    }
+
+    #work, #personal, #academic
+    {
+        opacity: 100%;
+        offset-path: path('M77.99,79.77l8.51-3.95c8.23-3.82,9.07-15.2,1.48-20.19l-0.55-0.36c-0.06-0.04-0.11-0.07-0.17-0.11c-8.01-5.16-18.74-2.55-23.85,5.5L30.89,111.9');
+        offset-distance: 100%;
+        offset-rotate: 0deg;
+    }
+    #personal
+    {
+        offset-path: path('M77.99,79.77l8.51-3.95c8.23-3.82,9.07-15.2,1.48-20.19l-0.55-0.36c-2.82-1.85-5.99-3-9.25-3.41c-8.33-1.06-16.32-3.94-23.01-9.01L30.89,24.43');
+    }
+    #academic
+    {
+        offset-path: path('M77.99,79.77l8.51-3.95c8.23-3.82,9.07-15.2,1.48-20.19l-0.55-0.36c-5.64-3.7-12.67-4.59-19.06-2.42L30.89,65.64');
+    }
+
+    svg:hover #work
+    {
+        opacity: 0%;
+        offset-path: path('M77.99,79.77l8.51-3.95c8.23-3.82,9.07-15.2,1.48-20.19l-0.55-0.36c-0.06-0.04-0.11-0.07-0.17-0.11c-8.01-5.16-18.74-2.55-23.85,5.5L30.89,111.9');
+        animation: moveIcon 1s ease-in-out forwards;
+        animation-delay: 2s;
+    }
+    
+    svg:hover #personal_content
+    {
+        clip-path: inset(0px 200px 0px 0px);
+        animation: showAnimation 0.5s ease-in-out forwards;
+        animation-delay: 0.7s;
+    }
+
+    svg:hover #academic_content
+    {
+        clip-path: inset(0px 200px 0px 0px);
+        animation: showAnimation 0.5s ease-in-out forwards;
+        animation-delay: 1.7s;
+    }
+
+    svg:hover #work_content
+    {
+        clip-path: inset(0px 200px 0px 0px);
+        animation: showAnimation 0.5s ease-in-out forwards;
+        animation-delay: 2.7s;
+    }
+
+
+    @keyframes foldAnimationLater {
+        40%
+        {
+            transform: scaleY(1);
+        }
+        45%
+        {
+            transform: scaleY(-1);
+        }
+        95%
+        {
+            transform: scaleY(-1);
+        }
+        100%
+        {
+            transform: scaleY(1);
+        }
+    }
+
+    @keyframes letterGoAndCome {
+        0%
+        {
+            transform: translateX(0);
+        }
+        15%
+        {
+            opacity: 100%;
+            transform: translateX(140px);
+        }
+        16%
+        {
+            opacity: 0;
+            transform: translateX(140px);
+        }
+        17%
+        {
+            opacity: 0;
+            transform: translateX(-200px);
+        }
+        25%
+        {
+            opacity: 100%;
+            transform: translateX(-200px);
+        }
+        40%
+        {
+            opacity: 100%;
+            transform: translateX(0px);
+        }
+        100%
+        {
+            transform: translateX(0px);
+        }
+    }
+
+    @keyframes cvShowAnimation {
+        45%
+        {
+            transform: translateY(0);
+        }
+        50%
+        {
+            transform: translateY(-45px);
+        }
+        90%
+        {   
+            transform: translateY(-45px);
+        }
+        95%
+        {
+            transform: translateY(0);
+        }
+        100%
+        {
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes foldAnimationLaterHalf {
+        40%
+        {
+            transform: scaleY(1);
+        }
+        45%
+        {
+            transform: scaleY(0);
+        }
+        95%
+        {
+            transform: scaleY(0);
+        }
+        100%
+        {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes letterFoldAnimation {
+        from{
+            opacity: 100%;
+            transform: scaleY(1);
+        }
+        to{
+            opacity: 100%; 
+            transform: scaleY(-1);
+        }
+    }
+
+    @keyframes cvAnimation {
+        0%{
+            clip-path: inset(0px 0px 0px 0px);
+            transform: translateY(0px);
+        }
+        100%{
+            clip-path: inset(0px 0px 83px 0px);  
+            transform: translateY(60px);
+        }
+    }
+
+    @keyframes letterAnimation {
+        0% {
+            transform: translateY(200px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    @keyframes showAnimation {
+        0% {
+            clip-path: inset(0px 70px 0px 0px);
+        }
+        100% {
+            clip-path: inset(0px 0px 0px 0px);
+        }
+    }
+
+    @keyframes moveIcon {
+        0% {
+            clip-path: circle(0px);
+            opacity: 100%;  
+            offset-distance: 0%;
+            offset-rotate: 0deg;
+        }
+        15% {
+            clip-path: circle(20px);
+            offset-distance: 0%;
+            offset-rotate: 0deg;
+        }
+        100%
+        {
+            opacity: 100%;
+            offset-distance: 100%;
+            offset-rotate: 0deg;
+        }
+    }
+
+
+</style>
+<g id="cv">
+    <g id="letterFold_outer">
+        <g class="letterFold_later_back">
+        <path id="letterFold" class="st0" d="M70,23.06L5.79,46.37c-0.13,0.05-0.09,0.23,0.04,0.23h128.42c0.12,0,0.15-0.16,0.04-0.2L70,23.06z"/>
+    </g>
+        </g>
+        <g id="letterContent">
+<g id="Layer_1">
+	<rect x="8.39" y="3.49" class="st0" width="123.22" height="133.02"/>
+	<g id="academic_content">
+		<rect x="53.58" y="49.41" class="st1" width="57.38" height="4.98"/>
+		<rect x="53.58" y="56.57" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="61.84" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="67.1" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="72.37" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="77.64" class="st1" width="68.17" height="3.8"/>
+    </g>
+    <g id="personal_content">
+	<rect x="53.58" y="29.32" class="st1" width="57.38" height="4.98"/>
+	<text fill="#888" transform="matrix(1 0 0 1 53.5787 23.8143)" class="st2 st3">CV 2.0</text>
+    </g>
+    <g id="work_content">
+		<rect x="53.58" y="94.2" class="st1" width="57.38" height="4.98"/>
+		<rect x="53.58" y="101.36" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="106.63" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="111.9" class="st1" width="57.38" height="4.98"/>
+		<rect x="53.58" y="119.06" class="st1" width="68.17" height="3.8"/>
+		<rect x="53.58" y="124.32" class="st1" width="68.17" height="3.8"/>
+	</g>
+	<path fill="#cddc39" id="personal" d="M70,70c2.21,0,4-1.79,4-4s-1.79-4-4-4s-4,1.79-4,4S67.79,70,70,70z M70,72c-2.67,0-8,1.34-8,4v2h16v-2
+		C78,73.34,72.67,72,70,72z"/>
+	<path fill="#cddc39" id="work" d="M81.24,62.27h-5.62v-2.81c0-1.56-1.25-2.81-2.81-2.81h-5.62c-1.56,0-2.81,1.25-2.81,2.81v2.81h-5.62
+		c-1.56,0-2.8,1.25-2.8,2.81l-0.01,15.45c0,1.56,1.25,2.81,2.81,2.81h22.48c1.56,0,2.81-1.25,2.81-2.81V65.08
+		C84.05,63.52,82.8,62.27,81.24,62.27z M72.81,62.27h-5.62v-2.81h5.62V62.27z"/>
+	<path fill="#cddc39" id="academic" d="M60.17,71.66v5.62L70,82.64l9.83-5.37v-5.62L70,77.02L60.17,71.66z M70,57.36l-15.45,8.43L70,74.21l12.64-6.9v9.71h2.81
+		V65.79L70,57.36z"/>
+    <path class="st4" d="M77.99,79.77"/>
+</g>
+</g>
+<g id="letter"> 
+    <rect x="5.15" y="46.61" class="st0" width="129.7" height="68.34"/>
+    <g class="letterFold_later_front">
+    <path id="letterFold_2" class="st0" d="M70,23.06L5.79,46.37c-0.13,0.05-0.09,0.23,0.04,0.23h128.42c0.12,0,0.15-0.16,0.04-0.2L70,23.06z"/>
+    </g>
+</g>
+</g>
+</svg>

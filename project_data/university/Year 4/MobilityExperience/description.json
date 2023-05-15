@@ -1,0 +1,30 @@
+{
+    "Authors": [
+        "Aline Santos",
+        "Artur Gomes",
+        "Jo\u00e3o Gon\u00e7alves",
+        "Rui Gomes",
+        "Vitor Figueira",
+        "Vitor Santos"
+    ],
+    "Description": "MobilityExperience is a social network application, in which the main objective is to help students who are going through any type of academic mobility to find the best way to adapt to a new country or region. Doing so through information provided by people who live/been there, that share their experiences.",
+    "Media": [
+        "project_data/university/Year 4/MobilityExperience/ldso1.jpg",
+        "project_data/university/Year 4/MobilityExperience/ldso2.jpg",
+        "project_data/university/Year 4/MobilityExperience/ldso3.jpg",
+        "project_data/university/Year 4/MobilityExperience/LDSO Apresenta\u00c3\u0192\u00c2\u00a7\u00c3\u0192\u00c2\u00a3o Prot\u00c3\u0192\u00c2\u00b3tipo.jpg",
+        "project_data/university/Year 4/MobilityExperience/ldso.jpg"
+    ],
+    "ProjectName": "MobilityExperience",
+    "State": "",
+    "Subject": "Laborat\u00f3rio de Desenvolvimento de Software",
+    "Tags": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "NodeJS",
+        "MongoDB",
+        "Android"
+    ],
+    "URL": {}
+}

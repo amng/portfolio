@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 140 140" style="enable-background:new 0 0 140 140;" xml:space="preserve">
+    <style type="text/css">
+        .st0 {
+            fill: none;
+        }
+
+        .st1 {
+            fill: #FFFFFF;
+        }
+
+        .st2 {
+            font-family: 'Roboto-Bold';
+        }
+
+        .st3 {
+            font-size: 9px;
+        }
+
+        .st4 {
+            fill: none;
+            stroke: #000000;
+            stroke-miterlimit: 10;
+        }
+
+        .st5 {
+            display: inline;
+            fill: white;
+            stroke: #000000;
+            stroke-miterlimit: 10;
+        }
+
+        .st6 {
+            display: inline;
+            fill: none;
+            stroke: #000000;
+            stroke-width: 0;
+            stroke-miterlimit: 10;
+        }
+
+        #charts_bar {
+            fill: none;
+            stroke: #000000;
+            stroke-miterlimit: 10;
+        }
+
+        .st7{fill:#C1272D;}
+        .st8{fill:#ccc;}
+        .st9{fill:#aaa;}
+        .st10{fill:#bbb;}
+
+
+        #chart1,
+        #chart2,
+        #chart3 {
+            transform: scaleY(0);
+        }
+
+        #charts_bar {
+            transform: scaleX(0);
+        }
+
+        svg:hover #chart1 {
+            transform-box: fill-box;
+            transform-origin: 50% 100%;
+            transform: scaleY(0);
+            animation: animateChart1 infinite 2s;
+            animation-delay: 3s;
+        }
+
+        svg:hover #chart2 {
+            transform-box: fill-box;
+            transform-origin: 50% 100%;
+            transform: scaleY(0);
+            animation: animateChart2 infinite 2s;
+            animation-delay: 3s;
+        }
+
+        svg:hover #chart3 {
+            transform-box: fill-box;
+            transform-origin: 50% 100%;
+            transform: scaleY(0);
+            animation: animateChart3 infinite 2s;
+            animation-delay: 3s;
+        }
+
+        svg:hover #charts_bar {
+            transform-box: fill-box;
+            transform-origin: 0% 50%;
+            transform: scaleX(0);
+            animation: showChartBarAnimation 0.6s forwards;
+            animation-delay: 2.4s;
+
+        }
+
+        #phone3,
+        #phone1,
+        #phone2,
+        #heaphones3,
+        #heaphones2,
+        #heaphones1,
+        #computer3,
+        #computer1,
+        #computer2 {
+            opacity: 0%;
+        }
+
+        svg:hover #phone3,
+        svg:hover #phone1,
+        svg:hover #phone2,
+        svg:hover #heaphones3,
+        svg:hover #heaphones2,
+        svg:hover #heaphones1,
+        svg:hover #computer3,
+        svg:hover #computer1,
+        svg:hover #computer2 {
+            transform-box: fill-box;
+            transform-origin: 50% 50%;
+            offset-rotate: 0deg;
+            animation: moveIcon 0.8s forwards;
+        }
+
+        svg:hover #computer1 {
+            opacity: 0%;
+            offset-path: path('M34.01,34.76c-0.72,12.43-9.28,28.24-10,40.67c-0.85,14.52,6.13,25.64,5.29,40.16');
+        }
+
+        svg:hover #heaphones1 {
+            opacity: 0%;
+            offset-path: path('M71.85,116.11c-2.32-15.09-5.77-28.42-12.51-40.93C51.77,61.12,41.1,47.91,34.01,34.76');
+            animation-direction: reverse;
+        }
+
+        svg:hover #phone1 {
+            opacity: 0%;
+            offset-path: path('M114.23,116.11C102.9,99.04,99.34,83.54,85.98,70C72.59,56.43,47.4,48.34,34.01,34.76');
+            animation-direction: reverse;
+        }
+
+
+        svg:hover #computer2 {
+            opacity: 0%;
+            offset-path: path('M77.25,34.76c4.12,11.75,13.5,26.27,20.82,36.34c8.6,11.81,10.84,27.18,15.65,40.9');
+            animation-delay: 0.8s;
+        }
+
+        svg:hover #heaphones2 {
+            opacity: 0%;
+            offset-path: path('M29.64,112c6.19-19.53,1.79-11.71,10.89-28.4c9.13-16.74,27.59-32.09,36.72-48.83');
+            animation-direction: reverse;
+            animation-delay: 0.8s;
+        }
+
+        svg:hover #phone2 {
+            opacity: 0%;
+            offset-path: path('M70.83,112c-1.93-15.15-0.81-17.59,2.21-31.47c3.4-15.61,1.02-31.18,4.21-45.77');
+            animation-direction: reverse;
+            animation-delay: 0.8s;
+        }
+
+
+        svg:hover #computer3 {
+            opacity: 0%;
+            offset-path: path('M71.01,111.02c2.32-15.09,16.2-23.34,22.93-35.84c7.57-14.06,18.25-27.27,25.34-40.42');
+            animation-direction: reverse;
+            animation-delay: 1.6s;
+        }
+
+        svg:hover #heaphones3 {
+            opacity: 0%;
+            offset-path: path('M119.28,34.76c0.72,12.43,3.91,26.82-1.28,38.13c-5.86,12.76-6.85,23.61-6,38.13');
+            animation-delay: 1.6s;
+        }
+
+        svg:hover #phone3 {
+            opacity: 0%;
+            offset-path: path('M29.31,111.02c11.33-17.07,24.64-27.48,38-41.02c13.39-13.57,38.58-21.66,51.97-35.24');
+            animation-direction: reverse;
+            animation-delay: 1.6s;
+        }
+
+
+      
+        .dollars {
+            clip-path: inset(0px 200px 0px 0px);
+        }
+
+
+        svg:hover .dollars {
+            
+            animation: animateDollars 2.4s forwards;
+            animation-delay: 0.6s;
+        }
+
+        @keyframes showChartBarAnimation {
+            0% {
+                transform: scaleX(0);
+            }
+
+            100% {
+                transform: scaleX(1);
+            }
+        }
+
+
+        @keyframes moveIcon {
+            0% {
+                opacity: 0%;
+                transform: scale(0.2);
+            }
+
+            1% {
+                opacity: 100%;
+                transform: scale(0.2);
+                offset-distance: 0%;
+                offset-rotate: 0deg;
+            }
+
+            50% {
+                transform: scale(1);
+                offset-distance: 50%;
+            }
+
+            99% {
+                opacity: 100%;
+                transform: scale(0.2);
+                offset-distance: 100%;
+            }
+
+            100% {
+                opacity: 0%;
+            }
+        }
+
+        @keyframes animateChart1 {
+            0% {
+                transform: scaleY(0.1);
+            }
+
+            25% {
+                transform: scaleY(0.6);
+            }
+
+            50% {
+                transform: scaleY(0.4);
+            }
+
+            75% {
+                transform: scaleY(1);
+            }
+
+            100% {
+                transform: scaleY(0.1);
+            }
+        }
+
+        @keyframes animateChart2 {
+            0% {
+                transform: scaleY(0.7);
+            }
+
+            25% {
+                transform: scaleY(1);
+            }
+
+            50% {
+                transform: scaleY(0.5);
+            }
+
+            75% {
+                transform: scaleY(0.2);
+            }
+
+            100% {
+                transform: scaleY(0.7);
+            }
+        }
+
+        @keyframes animateChart3 {
+            0% {
+                transform: scaleY(0.3);
+            }
+
+            25% {
+                transform: scaleY(0.1);
+            }
+
+            50% {
+                transform: scaleY(0.9);
+            }
+
+            75% {
+                transform: scaleY(0.3);
+            }
+
+            100% {
+                transform: scaleY(0.3);
+            }
+        }
+
+        @keyframes animateDollars {
+            0% {
+                clip-path: inset(0px 20px 0px 0px);
+            }
+
+            33% {
+                clip-path: inset(0px 12px 0px 0px);
+            }
+
+            66% {
+                clip-path: inset(0px 6px 0px 0px);
+            }
+
+            100% {
+                clip-path: inset(0px 0px 0px 0px);
+            }
+        }
+    </style>
+    <g id="Devices">
+        <g>
+            <path id="computer1" d="M36.01,33.21c1.1,0,1.99-0.9,1.99-2l0.01-10c0-1.1-0.9-2-2-2h-16c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2h-4v2h24v-2H36.01z
+			 M20.01,21.21h16v10h-16V21.21z" />
+            <path id="heaphones1" d="M28.01,17.71c-4.97,0-9,4.03-9,9v7c0,1.66,1.34,3,3,3h3v-8h-4v-2c0-3.87,3.13-7,7-7s7,3.13,7,7v2h-4v8h3
+			c1.66,0,3-1.34,3-3v-7C37.01,21.74,32.98,17.71,28.01,17.71z" />
+            <path id="phone1" d="M32.01,16.21h-8c-1.66,0-3,1.34-3,3v16c0,1.66,1.34,3,3,3h8c1.66,0,3-1.34,3-3v-16C35.01,17.55,33.67,16.21,32.01,16.21z
+			 M30.01,36.21h-4v-1h4V36.21z M33.26,33.21h-10.5v-14h10.5V33.21z" />
+        </g>
+        <g>
+            <path id="computer2" d="M79.35,34.71c1.1,0,1.99-0.9,1.99-2l0.01-10c0-1.1-0.9-2-2-2h-16c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2h-4v2h24v-2H79.35z
+			 M63.35,22.71h16v10h-16V22.71z" />
+            <path id="heaphones2" d="M71.35,19.21c-4.97,0-9,4.03-9,9v7c0,1.66,1.34,3,3,3h3v-8h-4v-2c0-3.87,3.13-7,7-7c3.87,0,7,3.13,7,7v2h-4v8h3
+			c1.66,0,3-1.34,3-3v-7C80.35,23.24,76.32,19.21,71.35,19.21z" />
+            <path id="phone2" d="M75.35,17.71h-8c-1.66,0-3,1.34-3,3v16c0,1.66,1.34,3,3,3h8c1.66,0,3-1.34,3-3v-16C78.35,19.05,77.01,17.71,75.35,17.71z
+			 M73.35,37.71h-4v-1h4V37.71z M76.6,34.71H66.1v-14h10.5V34.71z" />
+        </g>
+        <g>
+            <path id="computer3" d="M121.99,34.71c1.1,0,1.99-0.9,1.99-2l0.01-10c0-1.1-0.9-2-2-2h-16c-1.1,0-2,0.9-2,2v10c0,1.1,0.9,2,2,2h-4v2h24v-2H121.99
+			z M105.99,22.71h16v10h-16V22.71z" />
+            <path id="heaphones3" d="M113.99,19.21c-4.97,0-9,4.03-9,9v7c0,1.66,1.34,3,3,3h3v-8h-4v-2c0-3.87,3.13-7,7-7s7,3.13,7,7v2h-4v8h3
+			c1.66,0,3-1.34,3-3v-7C122.99,23.24,118.96,19.21,113.99,19.21z" />
+            <path id="phone3" d="M117.99,17.71h-8c-1.66,0-3,1.34-3,3v16c0,1.66,1.34,3,3,3h8c1.66,0,3-1.34,3-3v-16
+			C120.99,19.05,119.65,17.71,117.99,17.71z M115.99,37.71h-4v-1h4V37.71z M119.24,34.71h-10.5v-14h10.5V34.71z" />
+        </g>
+    </g>
+    <g id="Layer_1">
+        <text transform="matrix(1 0 0 1 32.6781 27.2107)" class="st2 st3 st4">1</text>
+        <text transform="matrix(1 0 0 1 74.9465 27.2111)" class="st2 st3 st4">2</text>
+        <text transform="matrix(1 0 0 1 115.9541 27.2111)" class="st2 st3 st4">3</text>
+        <path class="st5" d="M24.01,126c-1.1,0-1.99,0.9-1.99,2c0,1.1,0.89,2,1.99,2c1.1,0,2-0.9,2-2C26.01,126.9,25.11,126,24.01,126z
+             M18.01,110v2h2l3.6,7.59l-1.35,2.45c-0.16,0.28-0.25,0.61-0.25,0.96c0,1.1,0.9,2,2,2h12v-2H24.43c-0.14,0-0.25-0.11-0.25-0.25
+            l0.03-0.12l0.9-1.63h7.45c0.75,0,1.41-0.41,1.75-1.03l3.58-6.49c0.08-0.14,0.12-0.31,0.12-0.48c0-0.55-0.45-1-1-1H22.22l-0.94-2
+            C21.28,110,18.01,110,18.01,110z M34.01,126c-1.1,0-1.99,0.9-1.99,2c0,1.1,0.89,2,1.99,2s2-0.9,2-2
+            C36.01,126.9,35.11,126,34.01,126z"/>
+        <path class="st5" d="M66,126c-1.1,0-1.99,0.9-1.99,2c0,1.1,0.89,2,1.99,2s2-0.9,2-2C68,126.9,67.1,126,66,126z M60,110v2h2
+            l3.6,7.59l-1.35,2.45C64.09,122.32,64,122.65,64,123c0,1.1,0.9,2,2,2h12v-2H66.42c-0.14,0-0.25-0.11-0.25-0.25l0.03-0.12l0.9-1.63
+            h7.45c0.75,0,1.41-0.41,1.75-1.03l3.58-6.49c0.08-0.14,0.12-0.31,0.12-0.48c0-0.55-0.45-1-1-1H64.21l-0.94-2
+            C63.27,110,60,110,60,110z M76,126c-1.1,0-1.99,0.9-1.99,2c0,1.1,0.89,2,1.99,2s2-0.9,2-2C78,126.9,77.1,126,76,126z"/>
+        <path class="st5" d="M107.99,126c-1.1,0-1.99,0.9-1.99,2c0,1.1,0.89,2,1.99,2s2-0.9,2-2C109.99,126.9,109.09,126,107.99,126z
+             M101.99,110v2h2l3.6,7.59l-1.35,2.45c-0.16,0.28-0.25,0.61-0.25,0.96c0,1.1,0.9,2,2,2h12v-2h-11.58c-0.14,0-0.25-0.11-0.25-0.25
+            l0.03-0.12l0.9-1.63h7.45c0.75,0,1.41-0.41,1.75-1.03l3.58-6.49c0.08-0.14,0.12-0.31,0.12-0.48c0-0.55-0.45-1-1-1H106.2l-0.94-2
+            C105.26,110,101.99,110,101.99,110z M117.99,126c-1.1,0-1.99,0.9-1.99,2c0,1.1,0.89,2,1.99,2s2-0.9,2-2
+            C119.99,126.9,119.09,126,117.99,126z"/>
+        <g id="houses">
+            <rect x="101.34" y="31.21" class="st6" width="10.65" height="0.11"/>
+            <rect x="73.55" y="31.21" class="st6" width="7.1" height="0.11"/>
+            <rect x="59.35" y="31.32" class="st6" width="10.65" height="6.99"/>
+            <rect x="31.43" y="31.21" class="st6" width="7.1" height="0.11"/>
+            <rect x="101.34" y="31.32" class="st6" width="10.65" height="6.99"/>
+            <rect x="59.35" y="31.21" class="st6" width="10.65" height="0.11"/>
+            <rect x="115.55" y="31.21" class="st6" width="7.1" height="0.11"/>
+            <rect x="17.23" y="31.21" class="st6" width="10.65" height="0.11"/>
+            <rect x="17.23" y="31.32" class="st6" width="10.65" height="6.99"/>
+            <rect x="13.67" y="13.46" class="st7" width="28.41" height="3.55"/>
+            <polygon class="st8" points="27.88,38.32 17.23,38.32 17.23,31.32 13.67,31.32 13.67,41.87 31.43,41.87 31.43,31.32 27.88,31.32 
+                        "/>
+            <rect x="38.53" y="31.32" class="st8" width="3.55" height="10.54"/>
+            <polygon class="st7" points="43.86,31.21 43.86,27.66 42.09,18.78 13.67,18.78 11.9,27.66 11.9,31.21 13.67,31.21 13.67,31.32 
+                17.23,31.32 17.23,31.21 27.88,31.21 27.88,31.32 31.43,31.32 31.43,31.21 38.53,31.21 38.53,31.32 42.09,31.32 42.09,31.21 		"/>
+            <rect x="80.65" y="31.32" class="st9" width="3.55" height="10.54"/>
+            <polygon class="st7" points="85.98,31.21 85.98,27.66 84.21,18.78 55.79,18.78 54.02,27.66 54.02,31.21 55.79,31.21 55.79,31.32 
+                59.35,31.32 59.35,31.21 70,31.21 70,31.32 73.55,31.32 73.55,31.21 80.65,31.21 80.65,31.32 84.21,31.32 84.21,31.21 		"/>
+            <rect x="55.79" y="13.46" class="st7" width="28.41" height="3.55"/>
+            <polygon class="st9" points="70,38.32 59.35,38.32 59.35,31.32 55.79,31.32 55.79,41.87 73.55,41.87 73.55,31.32 70,31.32 		"/>
+            <rect x="97.79" y="13.46" class="st7" width="28.41" height="3.55"/>
+            <polygon class="st10" points="111.99,38.32 101.34,38.32 101.34,31.32 97.79,31.32 97.79,41.87 115.55,41.87 115.55,31.32 
+                111.99,31.32 		"/>
+            <polygon class="st7" points="126.2,31.21 127.98,31.21 127.98,27.66 126.2,18.78 97.79,18.78 96.01,27.66 96.01,31.21 
+                97.79,31.21 97.79,31.32 101.34,31.32 101.34,31.21 111.99,31.21 111.99,31.32 115.55,31.32 115.55,31.21 122.65,31.21 
+                122.65,31.32 126.2,31.32 		"/>
+            <rect x="122.65" y="31.32" class="st10" width="3.55" height="10.54"/>
+        </g>
+    </g>
+    <g id="charts">
+        <line id="charts_bar" class="st7" x1="6.15" y1="105.04" x2="133.3" y2="105.04" />
+        <rect id="chart1" class="st8" x="23.47" y="56" width="9" height="46" />
+        <rect id="chart2" class="st9" x="65.46" y="56" width="9" height="46" />
+        <rect id="chart3" class="st10" x="107.45" y="56" width="9" height="46" />
+    </g>
+    <g id="dollars_outer">
+        <text class="dollars" transform="matrix(0.6 0 0 0.6 22 138)" class="st2 st3">$$$</text>
+        <text class="dollars" transform="matrix(0.6 0 0 0.6 64.2 138)" class="st2 st3">$$$</text>
+        <text class="dollars" transform="matrix(0.6 0 0 0.6 106.4 138)" class="st2 st3">$$$</text>
+    </g>
+</svg>
